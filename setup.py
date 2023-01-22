@@ -120,6 +120,7 @@ setup(
         "eip712>=0.1.4,<0.2",
         "ethpm-types>=0.3.15,<0.4",
         "evm-trace>=0.1.0a14",
+        "protobuf==3.20.1",
     ],
     entry_points={
         "console_scripts": ["ape=ape._cli:cli"],
